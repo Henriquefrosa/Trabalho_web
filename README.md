@@ -74,8 +74,6 @@ if ($conexao->connect_error) {
 
 ?> 
 ## Como ficou o Projeto
-![Imagen da tela inicial da aplicacao](screenshots_da_aplicacao/Captura de Tela 2025-01-16 às 18.32.37.png)
-![Imagen da tela de cadastro da aplicacao](screenshots_da_aplicacao/Captura de Tela 2025-01-16 às 18.32.45.png)
-
+Observar a pasta screenshots da aplicacao para ver imagens da aplicacao;      
 
 
