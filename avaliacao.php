@@ -215,6 +215,9 @@ $usuarios_result = $conexao->query("SELECT id_usuario, nome FROM Usuario");
                 </tbody>
             </table>
         <?php endif; ?>
+        <a href="paginainicial.php" >
+        <button>Voltar para pagina inicial</button>
+</a>
     </div>
 </body>
 </html>

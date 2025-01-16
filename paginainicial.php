@@ -118,8 +118,7 @@
 
         .produto {
             flex: 0 0 auto; /* Evita que os itens encolham */
-            min-width: 30%; /* Usando % para garantir responsividade */
-            max-width: 300px; /* Largura máxima para cada produto */
+            width: 300px; /* Largura máxima para cada produto */
             margin: 10px;
             text-align: center;
             background-color: #f8f8f8;

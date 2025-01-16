@@ -29,6 +29,8 @@ if (!isset($_SESSION['id'])) {
             width: 100%;
             height: 15vh;
             display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             padding: 0 2%;
@@ -41,7 +43,21 @@ if (!isset($_SESSION['id'])) {
             font-size: 2rem;
             font-weight: bold;
             color: #fff;
+            margin: auto;
         }
+        button {
+            background-color: #080808;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+
 
         main {
             padding: 20px;
@@ -103,12 +119,18 @@ if (!isset($_SESSION['id'])) {
         .excluir-btn:hover {
             background-color: #c0392b;
         }
+        a{
+            margin-left: auto;
+        }
 
     </style>
 </head>
 <body>
     <header>
         <h1>Meus Produtos</h1>
+        <a href="paginainicial.php" >
+        <button>Voltar para pagina inicial</button>
+</a>
     </header>
     <main>
         <?php
