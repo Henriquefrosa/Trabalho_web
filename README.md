@@ -1,2 +1,2 @@
 # Trabalho_web
-Trabalho final de web, feito em grupo
+Trabalho final de desenvolvimento web, feito em grupo
